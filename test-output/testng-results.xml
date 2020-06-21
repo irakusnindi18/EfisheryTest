@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18027" started-at="2020-06-21T17:48:29 ICT" finished-at="2020-06-21T17:48:47 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18027" started-at="2020-06-21T17:48:29 ICT" finished-at="2020-06-21T17:48:47 ICT">
+      <class name="com.efishery.ira.TestEfishery">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.efishery.ira.TestEfishery@68bbe345]" name="setUpBeforeClass" is-config="true" duration-ms="5929" started-at="2020-06-21T17:48:29 ICT" finished-at="2020-06-21T17:48:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:com.efishery.ira.TestEfishery@68bbe345]" name="test1" duration-ms="1533" started-at="2020-06-21T17:48:35 ICT" finished-at="2020-06-21T17:48:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:com.efishery.ira.TestEfishery@68bbe345]" name="test2" duration-ms="7413" started-at="2020-06-21T17:48:37 ICT" finished-at="2020-06-21T17:48:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:3, instance:com.efishery.ira.TestEfishery@68bbe345]" name="test3" duration-ms="1550" started-at="2020-06-21T17:48:44 ICT" finished-at="2020-06-21T17:48:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.efishery.ira.TestEfishery@68bbe345]" name="tearDownAfterClass" is-config="true" duration-ms="1522" started-at="2020-06-21T17:48:46 ICT" finished-at="2020-06-21T17:48:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.efishery.ira.TestEfishery -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
