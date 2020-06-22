@@ -22,6 +22,7 @@ import org.testng.annotations.Test;
  * Email: irakusnindi1805@gmail.com
  * Date: 21-Juni-2020
  * Running test menggunakan browser firefox
+ * IDE Eclipse
  */
 
 public class TestEfishery {
@@ -72,8 +73,6 @@ public class TestEfishery {
         
         //span[@class='f-16 f-bold']
 		logInfo("Location Can Select");
-		
-		sleepPause(1200);
 	
 	
 	}
@@ -84,14 +83,14 @@ public class TestEfishery {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
 		// Forward navigation banner
-		for(int i =0;i<3;i++)
+		for(int i =0;i<2;i++)
 		{
 		      driver.findElement(By.xpath("//span[@class='carousel-control-next-icon']")).click();
 		      Thread.sleep(1000);
 		  }
 
 		// back navigation banner
-		for(int j=0;j<3;j++)
+		for(int j=0;j<2;j++)
 		{
 		     driver.findElement(By.xpath("//span[@class='carousel-control-prev-icon']")).click();
 		     Thread.sleep(1000);
